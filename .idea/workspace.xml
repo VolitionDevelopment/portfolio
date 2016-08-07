@@ -4,43 +4,43 @@
     <list default="true" id="db937460-f4ee-400a-802b-37fb00efd965" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/portfolio.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/scss/volition.css.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/theme/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/scss/volition.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/theme/example.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/theme/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/theme/scss/.sass-cache/95df1003b57e0502c366c216347a32b0d8792ba5/volition.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/scss/volition.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/scss/volition.css.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/theme/scss/volition.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/volition.css" afterPath="$PROJECT_DIR$/css/volition.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/background-alt.jpg" afterPath="$PROJECT_DIR$/images/background-alt.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/background.jpg" afterPath="$PROJECT_DIR$/images/background.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/AngularJS.png" afterPath="$PROJECT_DIR$/images/dev-logos/AngularJS.png" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/CSS3.png" afterPath="$PROJECT_DIR$/images/dev-logos/CSS3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/jquery.mixitup.js" afterPath="$PROJECT_DIR$/js/jquery.mixitup.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/background-alt.jpg" afterPath="$PROJECT_DIR$/images/background-alt.jpg" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/HTML5.png" afterPath="$PROJECT_DIR$/images/dev-logos/HTML5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/Linux.png" afterPath="$PROJECT_DIR$/images/dev-logos/Linux.png" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/apache.png" afterPath="$PROJECT_DIR$/images/dev-logos/apache.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/bootstrap.png" afterPath="$PROJECT_DIR$/images/dev-logos/bootstrap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/django.png" afterPath="$PROJECT_DIR$/images/dev-logos/django.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/electron.png" afterPath="$PROJECT_DIR$/images/dev-logos/electron.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/express.png" afterPath="$PROJECT_DIR$/images/dev-logos/express.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/github.png" afterPath="$PROJECT_DIR$/images/dev-logos/github.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/Linux.png" afterPath="$PROJECT_DIR$/images/dev-logos/Linux.png" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/jQuery.png" afterPath="$PROJECT_DIR$/images/dev-logos/jQuery.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/javascript.png" afterPath="$PROJECT_DIR$/images/dev-logos/javascript.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/mongodB.png" afterPath="$PROJECT_DIR$/images/dev-logos/mongodB.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/mongoose.png" afterPath="$PROJECT_DIR$/images/dev-logos/mongoose.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/mysql.png" afterPath="$PROJECT_DIR$/images/dev-logos/mysql.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/node.png" afterPath="$PROJECT_DIR$/images/dev-logos/node.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/python-logo-glassy2.png" afterPath="$PROJECT_DIR$/images/dev-logos/python-logo-glassy2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/sass.png" afterPath="$PROJECT_DIR$/images/dev-logos/sass.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/sketch.png" afterPath="$PROJECT_DIR$/images/dev-logos/sketch.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/pattern.png" afterPath="$PROJECT_DIR$/images/pattern.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/volition.js" afterPath="$PROJECT_DIR$/js/volition.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/bootstrap.png" afterPath="$PROJECT_DIR$/images/dev-logos/bootstrap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/express.png" afterPath="$PROJECT_DIR$/images/dev-logos/express.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/css/volition.css" afterPath="$PROJECT_DIR$/css/volition.css" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/jquery-3.1.0.min.js" afterPath="$PROJECT_DIR$/js/jquery-3.1.0.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/jquery.mixitup.js" afterPath="$PROJECT_DIR$/js/jquery.mixitup.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/js/volition.js" afterPath="$PROJECT_DIR$/js/volition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/background.jpg" afterPath="$PROJECT_DIR$/images/background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/javascript.png" afterPath="$PROJECT_DIR$/images/dev-logos/javascript.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/mongodB.png" afterPath="$PROJECT_DIR$/images/dev-logos/mongodB.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/python-logo-glassy2.png" afterPath="$PROJECT_DIR$/images/dev-logos/python-logo-glassy2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/electron.png" afterPath="$PROJECT_DIR$/images/dev-logos/electron.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/sass.png" afterPath="$PROJECT_DIR$/images/dev-logos/sass.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/AngularJS.png" afterPath="$PROJECT_DIR$/images/dev-logos/AngularJS.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/mysql.png" afterPath="$PROJECT_DIR$/images/dev-logos/mysql.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/node.png" afterPath="$PROJECT_DIR$/images/dev-logos/node.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/django.png" afterPath="$PROJECT_DIR$/images/dev-logos/django.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/github.png" afterPath="$PROJECT_DIR$/images/dev-logos/github.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/mongoose.png" afterPath="$PROJECT_DIR$/images/dev-logos/mongoose.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/pattern.png" afterPath="$PROJECT_DIR$/images/pattern.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/images/dev-logos/sketch.png" afterPath="$PROJECT_DIR$/images/dev-logos/sketch.png" />
     </list>
     <ignored path="Portfolio .iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +66,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="208" column="124" selection-start-line="208" selection-start-column="124" selection-end-line="208" selection-end-column="124" />
+            <state relative-caret-position="345">
+              <caret line="229" column="171" selection-start-line="229" selection-start-column="171" selection-end-line="229" selection-end-column="171" />
               <folding />
             </state>
           </provider>
@@ -127,10 +127,10 @@
         <option value="$PROJECT_DIR$/assets/semantic/src/theme.config" />
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/theme/css/volition.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/theme/js/volition.js" />
         <option value="$PROJECT_DIR$/css/portfolio.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -170,56 +170,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
+              <option name="myItemId" value="portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
+              <option name="myItemId" value="portfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,16 +322,17 @@
       <workItem from="1470242586730" duration="677000" />
       <workItem from="1470321913811" duration="1973000" />
       <workItem from="1470419972440" duration="1402000" />
-      <workItem from="1470593883642" duration="953000" />
+      <workItem from="1470593883642" duration="1202000" />
+      <workItem from="1470605496389" duration="192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23680000" />
+    <option name="totallyTimeSpent" value="24121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -759,19 +732,7 @@
     <entry file="file://$PROJECT_DIR$/assets/semantic/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/assets/semantic/components/ad.css" />
     <entry file="file://$PROJECT_DIR$/assets/css/styles.css" />
-    <entry file="file://$PROJECT_DIR$/theme/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/README.md" />
     <entry file="file://$PROJECT_DIR$/js/volition.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -809,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="208" column="124" selection-start-line="208" selection-start-column="124" selection-end-line="208" selection-end-column="124" />
+        <state relative-caret-position="345">
+          <caret line="229" column="171" selection-start-line="229" selection-start-column="171" selection-end-line="229" selection-end-column="171" />
           <folding />
         </state>
       </provider>
