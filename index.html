@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello! I'm Jackson</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0275cb1589.js"></script>
+    <link href="css/volition.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+<!-- Modal -->
+<div class="modal fade" id="goblin" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Goblin Game</h4>
+            </div>
+            <div class="modal-body">
+                <iframe src="http://volition-dev.com/goblin" width="550px" height="620px"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary reload">Reload</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="tictactoe" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Tic Tac Toe</h4>
+            </div>
+            <div class="modal-body text-center">
+                <iframe src="http://volition-dev.com/tictactoe" width="800px" height="600px" class="text-center"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary reload">Reload</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="cover"></div>
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header"> <a class="navbar-brand" href="#">Volition Development</a> </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#whatdo">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#numbers">Numbers</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="top" id="top">
+            <div class="top-wrapper">
+                <h1>Hi, I'm Jackson</h1>
+                <div class="separator">
+                    <div class="line"></div>
+                    <h2>&diams;</h2>
+                    <div class="line"></div>
+                </div>
+                <p>I'm a full-stack developer</p>
+            </div>
+            <h2 class="arrow"><a href="#whatdo" class="glyphicon glyphicon-chevron-down"></a></h2> 
+        </div>
+        <div class="excerpt excerpt-white" id="whatdo">
+            <div class="excerpt-wrapper">
+                <h2>What do you do?</h2>
+                <div class="separator">
+                    <div class="line"></div>
+                    <h3>&diams;</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2><i class="fa fa-file-code-o" aria-hidden="true"></i></h2>
+                        <h3>Front-End Development</h3>
+                        <p>As a full-stack developer I can both build <b>and</b> design websites that are fully responsive on all viewports. In my spare time, I build open-sourced themes for all to use. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2><i class="fa fa-database" aria-hidden="true"></i></h2>
+                        <h3>Back-End Development</h3>
+                        <p>As well as being able to design a website, I can build and configure the backend. I specialize in the MEAN stack (Node.js), though I am proficient in Python. </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2><i class="fa fa-paint-brush" aria-hidden="true"></i></h2>
+                        <h3>UI/UX Design</h3>
+                        <p>As a UI/UX-trained developer, all websites that I build will be beautiful, functional, and intuitive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer-md">
+            <div class="triangle"></div>
+        </div>
+        <div class="excerpt excerpt-white" id="portfolio">
+            <div class="excerpt-wrapper">
+                <h2>What have you done?</h2>
+                <div class="separator">
+                    <div class="line"></div>
+                    <h3>&diams;</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <button class="btn btn-primary btn-lg filter" data-filter="all">All Projects</button> 
+                    <button class="btn btn-warning btn-lg filter" data-filter=".javascript">JavaScript</button>
+                    <button class="btn btn-info btn-lg filter" data-filter=".uix">UI/X Work</button>
+                    <button class="btn btn-danger btn-lg filter" data-filter=".python">Python</button>
+                    <button class="btn btn-success btn-lg filter" data-filter=".misc">Misc Languages</button>
+                </div>
+                <hr>
+                <div class="row mixitup">
+                    <div class="col-lg-4 col-md-3 mix uix">
+                        <div class="well">
+                            <h3>Volition Theme</h3>
+                            <p class="lead"><span class="label label-info">UI/X Work</span></p>
+                            <p class="portfolio-desc">A beautiful, simplistic theme based on Bootstrap. This portfolio is built on it.</p>
+                            <p>
+                                <a href="theme/index.html" class="btn btn-info">Check it out</a>
+                                <a href="https://github.com/VolitionDevelopment/volition-theme" class="btn btn-success">Source</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 mix javascript">
+                        <div class="well">
+                            <h3>Goblin Hunter</h3>
+                            <p class="lead"><span class="label label-warning">Javascript</span></p>
+                            <p class="portfolio-desc">A fun little game written in Javascript using the <code>&lt;canvas&gt;</code> tag. Your goal is to avoid the goblins, who spawn every 500 ticks. Uses simple objects and has great reuse of functions.</p>
+                            <p>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#goblin">
+                                    Check it out
+                                </button>
+                                <a href="https://github.com/VolitionDevelopment/goblin-hunter" class="btn btn-success">Source</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 mix javascript">
+                        <div class="well">
+                            <h3>Blackjack</h3>
+                            <p class="lead"><span class="label label-warning">Javascript</span></p>
+                            <p class="portfolio-desc">A simple Blackjack game that follows all of the rules. A betting system has also been implemented. </p>
+                            <p>
+                                <a class="btn btn-info" data-toggle="modal" href="blackjack/index.html">
+                                    Check it out
+                                </a>
+                                <a href="https://github.com/VolitionDevelopment/blackjack" class="btn btn-success">Source</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 mix misc">
+                        <div class="well">
+                            <h3>The Hunt</h3>
+                            <p class="lead"><span class="label label-success">Java</span></p>
+                            <p class="portfolio-desc">A text adventure written in Java. Uses advanced object-oriented concepts and design patterns.</p>
+                            <p>
+                                <a href="https://github.com/VolitionDevelopment/the-hunt" class="btn btn-success">Source</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 mix javascript">
+                        <div class="well">
+                            <h3>Tic Tac Toe AI</h3>
+                            <p class="lead"><span class="label label-warning">Javascript</span></p>
+                            <p class="portfolio-desc">A tic tac toe game that features a heuristics AI. Nigh-unbeatable! (Machine Learning version WIP)</p>
+                            <p>
+                                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#tictactoe">
+                                    Check it out
+                                </button>
+                                <a href="https://github.com/VolitionDevelopment/tic-tac-toe" class="btn btn-success">Source</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 mix python">
+                        <div class="well">
+                            <h3>placeme.me</h3>
+                            <p class="lead"><span class="label label-danger">Python</span></p>
+                            <p class="portfolio-desc">Quick and simple placeholder memes. You can specify a height and width. You can also specify the type of meme: Trump, Classic, or Tired.</p>
+                            <p>
+                                <a href="http://placeme.me" class="btn btn-info" data-toggle="modal">
+                                    Check it out
+                                </a>
+                                <a href="https://github.com/VolitionDevelopment/placeme.me" class="btn btn-success">Source</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 mix uix">
+                        <div class="well">
+                            <h3>Block'd Theme</h3>
+                            <p class="lead"><span class="label label-info">UI/X Work</span></p>
+                            <p class="portfolio-desc">A fantastic-looking theme that has a Minecraft feel to it. Commissioned to be built by a client</p>
+                            <p>
+                                <a href="blockd/index.html" class="btn btn-info" data-toggle="modal">
+                                    Check it out
+                                </a>
+                                <a href="#" class="btn btn-danger">Private</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="excerpt excerpt-clear" id="numbers">
+            <div class="triangle"></div>
+            <div class="excerpt-wrapper">
+                <h2>Show me some figures</h2>
+                <div class="separator">
+                    <div class="line"></div>
+                    <h3>&diams;</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="light">Clients</h3>
+                        <h2 class="number">7</h2> </div>
+                    <div class="col-md-4">
+                        <h3 class="light">Projects</h3>
+                        <h2 class="number">12</h2> </div>
+                    <div class="col-md-4">
+                        <h3 class="light">Satisfaction</h3>
+                        <h2 class="number">100%</h2> </div>
+                </div>
+            </div>
+        </div>
+        <div class="excerpt excerpt-white" id="skills">
+            <div class="excerpt-wrapper">
+                <h2>Skills</h2>
+                <div class="separator">
+                    <div class="line"></div>
+                    <h3>&diams;</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="row skills">
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/HTML5.png" class="dev-logo">
+                        <p class="lead">HTML5</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/CSS3.png" class="dev-logo">
+                        <p class="lead">CSS3</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/javascript.png" class="dev-logo">
+                        <p class="lead">JavaScript</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/jQuery.png" class="dev-logo">
+                        <p class="lead">jQuery</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/sass.png" class="dev-logo">
+                        <p class="lead">SASS</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/bootstrap.png" class="dev-logo">
+                        <p class="lead">Bootstrap</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row skills">
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/mongodB.png" class="dev-logo">
+                        <p class="lead">MongoDB</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/express.png" class="dev-logo">
+                        <p class="lead">Express</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/AngularJS.png" class="dev-logo">
+                        <p class="lead">AngularJS</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/node.png" class="dev-logo">
+                        <p class="lead">Node.js</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/mongoose.png" class="dev-logo">
+                        <p class="lead">Mongoose</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/electron.png" class="dev-logo">
+                        <p class="lead">Electron</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row skills">
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/mysql.png" class="dev-logo">
+                        <p class="lead">MySQL</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/github.png" class="dev-logo">
+                        <p class="lead">Git</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/Linux.png" class="dev-logo">
+                        <p class="lead">Linux</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/sketch.png" class="dev-logo">
+                        <p class="lead">Sketch</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/python-logo-glassy2.png" class="dev-logo">
+                        <p class="lead">Python</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img src="images/dev-logos/django.png" class="dev-logo">
+                        <p class="lead">Django</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer-md">
+            <div class="triangle triangle-white"></div>
+        </div>
+        <div class="excerpt excerpt-white" id="clients">
+            <div class="excerpt-wrapper">
+                <h2>Clients</h2>
+                <div class="separator">
+                    <div class="line"></div>
+                    <h3>&diams;</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>Client 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio placeat culpa similique excepturi voluptas officia explicabo architecto repellendus, voluptatum, reprehenderit autem corrupti expedita recusandae dolorem tempora quod sint fugiat nobis.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Client 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio placeat culpa similique excepturi voluptas officia explicabo architecto repellendus, voluptatum, reprehenderit autem corrupti expedita recusandae dolorem tempora quod sint fugiat nobis.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Client 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio placeat culpa similique excepturi voluptas officia explicabo architecto repellendus, voluptatum, reprehenderit autem corrupti expedita recusandae dolorem tempora quod sint fugiat nobis.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Client 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio placeat culpa similique excepturi voluptas officia explicabo architecto repellendus, voluptatum, reprehenderit autem corrupti expedita recusandae dolorem tempora quod sint fugiat nobis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="excerpt excerpt-grey" id="contact">
+            <div class="triangle"></div>
+            <div class="excerpt-wrapper">
+                <h2 class="text-center">Contact Me</h2>
+                <div class="separator">
+                    <div class="line"></div>
+                    <h3>&diams;</h3>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Phone</h3>
+                        <p class="lead">(678)-736-1423</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Email</h3>
+                        <p class="lead">jackson@volition-dev.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="">Resume</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="https://github.com/VolitionDevelopment">Github</a></li>
+                <li><a href="theme/index.html">Get Theme</a></li>
+            </ul>
+            <ul class="right">
+                <li>&copy; 2016 Volition Development</li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/volition.js"></script>
+</body>
+</html>

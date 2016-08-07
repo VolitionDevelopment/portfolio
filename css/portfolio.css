@@ -1,0 +1,42 @@
+body {
+    background-image: url(images/background.jpg);
+    position: relative;
+}
+
+iframe{
+    border: none;
+}
+
+#goblin{
+    max-height: 100%;
+}
+
+.mixitup .well{
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.portfolio-desc{
+    min-height: 100px;
+}
+
+.dev-logo{
+    max-width: 50%;
+}
+
+.skills{
+    height: 150px;
+    position: relative;
+}
+
+.skills .col-md-2{
+    height: 100%;
+}
+
+.skills p{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 87%;
+}
